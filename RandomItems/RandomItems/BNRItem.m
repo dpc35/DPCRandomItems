@@ -44,18 +44,24 @@
 BNRItem *newItem = [[self alloc] initWithItemName:randomName
                                    valueInDollars:randomValue
                                      serialNumber:randomSerialNumber];
-                            return newItem;
+    
+    return newItem;
                             
 }
 
 - (instancetype)initWithItemName:(NSString *)name
+
+
+
 {
     return [self initWithItemName:name
             valueInDollars:0
               serialNumber:@""];
 }
 
+
 - (instancetype)init
+
 {
     return [self initWithItemName:@"Item"];
 }
@@ -63,6 +69,7 @@ BNRItem *newItem = [[self alloc] initWithItemName:randomName
 - (instancetype)initWithItemName:(NSString *)name
                   valueInDollars:(int)value
                     serialNumber:(NSString *)sNumber
+
 {
     // Call the superclass's designated initializer
     self = [super init];
@@ -100,6 +107,7 @@ BNRItem *newItem = [[self alloc] initWithItemName:randomName
 - (NSString *)itemName;
 {
     return _itemName;
+
 }
 
 - (void)setSerialNumber:(NSString *)str
@@ -125,6 +133,15 @@ BNRItem *newItem = [[self alloc] initWithItemName:randomName
 - (NSDate *)dateCreated
 {
     return _dateCreated;
+}
+
+// For the Silver Challenge
+- (instancetype)initWithItemName:(NSString *)name
+                    serialNumber:(NSString *)sNumber
+{
+    return [self initWithItemName:name
+                   valueInDollars:0
+                     serialNumber:@""];
 }
 
 @end

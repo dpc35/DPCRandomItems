@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1004AA4A1A9D5143005C4627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1004AA491A9D5143005C4627 /* main.m */; };
 		1004AA521A9D5538005C4627 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1004AA511A9D5538005C4627 /* BNRItem.m */; };
+		10C279B61A9EB79B00D7B09B /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C279B51A9EB79B00D7B09B /* BNRContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		1004AA491A9D5143005C4627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1004AA501A9D5538005C4627 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		1004AA511A9D5538005C4627 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		10C279B41A9EB79B00D7B09B /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		10C279B51A9EB79B00D7B09B /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				1004AA491A9D5143005C4627 /* main.m */,
 				1004AA501A9D5538005C4627 /* BNRItem.h */,
+				10C279B41A9EB79B00D7B09B /* BNRContainer.h */,
+				10C279B51A9EB79B00D7B09B /* BNRContainer.m */,
 				1004AA511A9D5538005C4627 /* BNRItem.m */,
 			);
 			path = RandomItems;
@@ -125,6 +130,7 @@
 			files = (
 				1004AA4A1A9D5143005C4627 /* main.m in Sources */,
 				1004AA521A9D5538005C4627 /* BNRItem.m in Sources */,
+				10C279B61A9EB79B00D7B09B /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 				1004AA4F1A9D5143005C4627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
